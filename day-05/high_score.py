@@ -10,8 +10,7 @@ def high_score(lst):
         if i >= high_score:
             high_score = 0
             high_score += i
-        else:
-            pass
+    
     return f'The highest score in the class is: {high_score}'
 
 if __name__ == '__main__':
