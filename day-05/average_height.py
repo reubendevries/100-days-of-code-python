@@ -15,9 +15,7 @@ def average_height(list):
     for i in list:
         sum_of_height += int(i)
         x += 1
-
     return round( (sum_of_height / x) )
-
 
 if __name__ == '__main__':
     ans = average_height(student_heights)
