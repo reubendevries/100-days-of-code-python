@@ -25,7 +25,7 @@ def cheese(a):
         if a in ['Y', 'N']:
             return a
     except ValueError:
-        return 'In valid \'Add Cheese\' option. Please choose a valid option'
+        return 'Invalid \'Add Cheese\' option. Please choose a valid option'
 
 
 def calculate_bill(a, b, c):

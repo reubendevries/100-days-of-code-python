@@ -6,7 +6,6 @@ names = names_string.split( ', ' )
 def banker_roulette(a):
     i = randint( 0, len( a ) -1 )
     payee = a[i]
-
     return f'{payee} is going to buy the meal today!'
 
 
